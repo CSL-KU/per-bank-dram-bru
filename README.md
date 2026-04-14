@@ -8,7 +8,7 @@ This is the main repo for the RTAS 2026 paper: ```Per-Bank Memory Bandwidth Regu
 - [RTL for MSHR regulator](https://github.com/crsullivan13/rocket-chip-inclusive-cache/tree/mshr-reg2.0-perbank) (mshr-reg2.0 for allbank version)
 - [RTL for Tagging Unit](https://github.com/crsullivan13/BwReg/tree/dram-reg-forward-per-bank) (dram-reg-forward for allbank version)
 
-## Using this repo
+## Repo Setup
 
 Remeber that our evaluation assumes VCU118 board as the FPGA platform and should not be expected to work out of the box on other boards.
 
