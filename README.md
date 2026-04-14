@@ -1,4 +1,5 @@
-This is the main repo for the RTAS 2026 paper: "Per-Bank Memory Bandwidth Regulation for Predictable and Performant Real-Time Systems". It contains all of the code needed for FireSim evaluation reproduction. The useful links section will direct you to the main source code as well as the other repos related to this work.
+## Description
+This is the main repo for the RTAS 2026 paper: ```Per-Bank Memory Bandwidth Regulation for Predictable and Performant Real-Time Systems```. It contains all of the code needed for FireSim evaluation reproduction. The useful links section will direct you to the main source code as well as the other repos related to this work.
 
 ## Useful Links
 
@@ -23,4 +24,25 @@ Then proceed with the setup as usual. Once done with the setup, run the followin
 ```
 export FIRESIM_ROOT=$(pwd) # assuming you are at the root of the firesim repo you cloned
 ./version-setup.sh
+```
+
+You should have a working repo now. As is noted in the FireSim docs, anything from here on assumes you have run ```source sourceme-manager.sh --skip-ssh-setup```.
+
+Next, you will want to build the workload that is loaded into the simulation. It will contain all the needed binaries and scripts to reproduce the data from the published figures. This may take a little time as it will compile Linux and build the disk image.
+
+```
+cd $FIRESIM_ROOT/sw/firesim-software
+./marshal -v build cache-test.json # may need to run as sudo
+```
+
+## Citation
+
+```
+@inproceedings{sullivan2026rtas,
+    title = {{Per-Bank Memory Bandwidth Regulation for Predictable and Performant Real-Time Systems}},
+    author = {Connor Sullivan and Amin Mamandipoor and Cole Strickler and Heechul Yun},
+    booktitle = {IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS)},
+    year = {2026},
+    month = {May}
+}
 ```
