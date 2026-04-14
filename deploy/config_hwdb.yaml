@@ -99,25 +99,25 @@ alveo_u280_firesim_rocket_singlecore_no_nic:
 # RTAS'26 Designs
 # new hardware, per-bank counters, 9,10,11 bank bits, no mcrams, adjusted row offset
 vcu118_quad_medboombig_2Bank_dramreg_perbank:
-    bitstream_tar: file:///home/c749s385/Documents/temp/DOSvBRU-firesim/deploy/results-build/2026-03-20--01-40-48-vcu118_quad_medboombig_2Bank_dramreg_perbank/cl_xilinx_vcu118-firesim-FireSim-DDR3FRFCFS_QuadMedBoomBigConfig-WithSynthAsserts_BaseXilinxVCU118Config/firesim.tar.gz
+    bitstream_tar: https://github.com/CSL-KU/per-bank-dram-bru/raw/rtas26/deploy/results-build/2026-03-20--01-40-48-vcu118_quad_medboombig_2Bank_dramreg_perbank/cl_xilinx_vcu118-firesim-FireSim-DDR3FRFCFS_QuadMedBoomBigConfig-WithSynthAsserts_BaseXilinxVCU118Config/firesim.tar.gz
     deploy_quintuplet_override: null
     custom_runtime_config: null
 
 # new hardware, per-bank counters, 9,10,11 bank bits, no mcrams, adjusted row offset
 vcu118_single_medboombig_2Bank_dramreg_perbank:
-    bitstream_tar: file:///home/c749s385/Documents/temp/DOSvBRU-firesim/deploy/results-build/2026-03-21--14-45-16-vcu118_single_medboombig_2Bank_dramreg_perbank/cl_xilinx_vcu118-firesim-FireSim-DDR3FRFCFS_SingleMedBoomBigConfig-WithSynthAsserts_BaseXilinxVCU118Config/firesim.tar.gz
+    bitstream_tar: https://github.com/CSL-KU/per-bank-dram-bru/raw/rtas26/deploy/results-build/2026-03-21--14-45-16-vcu118_single_medboombig_2Bank_dramreg_perbank/cl_xilinx_vcu118-firesim-FireSim-DDR3FRFCFS_SingleMedBoomBigConfig-WithSynthAsserts_BaseXilinxVCU118Config/firesim.tar.gz
     deploy_quintuplet_override: null
     custom_runtime_config: null
 
 # new hardware, per-bank counters, 9,10,11 bank bits, no mcrams, adjusted row offset
 vcu118_single_medboombig_2Bank_dramreg_allbank:
-    bitstream_tar: file:///home/c749s385/Documents/temp/DOSvBRU-firesim/deploy/results-build/2026-03-21--18-19-22-vcu118_single_medboombig_2Bank_dramreg_allbank/cl_xilinx_vcu118-firesim-FireSim-DDR3FRFCFS_SingleMedBoomBigConfig-WithSynthAsserts_BaseXilinxVCU118Config/firesim.tar.gz
+    bitstream_tar: https://github.com/CSL-KU/per-bank-dram-bru/raw/rtas26/deploy/results-build/2026-03-21--18-19-22-vcu118_single_medboombig_2Bank_dramreg_allbank/cl_xilinx_vcu118-firesim-FireSim-DDR3FRFCFS_SingleMedBoomBigConfig-WithSynthAsserts_BaseXilinxVCU118Config/firesim.tar.gz
     deploy_quintuplet_override: null
     custom_runtime_config: null
 
 # new hardware, per-bank counters, 9,10,11 bank bits, no mcrams, adjusted row offset
 vcu118_quad_medboombig_2Bank_dramreg_allbank:
-    bitstream_tar: file:///home/c749s385/Documents/temp/DOSvBRU-firesim/deploy/results-build/2026-03-21--18-40-42-vcu118_quad_medboombig_2Bank_dramreg_allbank/cl_xilinx_vcu118-firesim-FireSim-DDR3FRFCFS_QuadMedBoomBigConfig-WithSynthAsserts_BaseXilinxVCU118Config/firesim.tar.gz
+    bitstream_tar: https://github.com/CSL-KU/per-bank-dram-bru/raw/rtas26/deploy/results-build/2026-03-21--18-40-42-vcu118_quad_medboombig_2Bank_dramreg_allbank/cl_xilinx_vcu118-firesim-FireSim-DDR3FRFCFS_QuadMedBoomBigConfig-WithSynthAsserts_BaseXilinxVCU118Config/firesim.tar.gz
     deploy_quintuplet_override: null
     custom_runtime_config: null
 # RTAS'26 Designs
