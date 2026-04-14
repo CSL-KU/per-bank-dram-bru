@@ -28,12 +28,16 @@ export FIRESIM_ROOT=$(pwd) # assuming you are at the root of the firesim repo yo
 
 You should have a working repo now. As is noted in the FireSim docs, anything from here on assumes you have run ```source sourceme-manager.sh --skip-ssh-setup```.
 
+When the FireSim docs tell you to run ```firesim managerinit --platform xilinx_vcu118``` it will replace ```deploy/config_hwdb.yml``` and ```deploy/config_runtime.yml```. It should create backups. You should use the backups instead of the defaults that it creates. You will need to edit the versions that we provide (the backups) to fit your FireSim environment (see FireSim docs for more info).
+
 Next, you will want to build the workload that is loaded into the simulation. It will contain all the needed binaries and scripts to reproduce the data from the published figures. This may take a little time as it will compile Linux and build the disk image.
 
 ```
 cd $FIRESIM_ROOT/sw/firesim-software
 ./marshal -v build cache-test.json # may need to run as sudo
 ```
+
+You can now move on to reproducing the results. If something is not working in the next section, then refer back to this section, making sure you followed all of the FireSim setup steps and that the mentioned config yml files are correct.
 
 ## Citation
 
